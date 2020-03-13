@@ -1,0 +1,32 @@
+{
+    "editor.renderLineHighlight": "none",
+    "editor.rulers": [
+        100
+    ],
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/__pycache__": true,
+        "**/*.pyc": true
+    },
+    "terminal.integrated.env.linux": {
+        "PATH": "~/.cargo/bin/:${env:PATH}"
+    },
+    "terminal.integrated.fontSize": 13,
+    "terminal.integrated.rendererType": "dom",
+    "workbench.colorTheme": "Default Light+",
+    "window.zoomLevel": 0,
+
+
+    "rust-client.rlsPath": "/home/k/.cargo/bin/rls",
+    "rust-client.rustupPath": "/home/k/.cargo/bin/rustup",
+    "rust.racer_completion": true,
+    "rust.rustfmt_path": "/home/k/.cargo/bin",
+    "[rust]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnPaste": true,
+    }
+}
